@@ -22,6 +22,10 @@
   font-size: 1.7em;
   font-weight: normal;
 }
+.landing-image {
+  background-image: url('images/anasofiapinho-profile-02.png') !important;
+  background-size: cover !important;
+}
 
 .ui.vertical.stripe {
   padding: 8em 0em;
