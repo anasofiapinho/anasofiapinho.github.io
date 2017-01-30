@@ -2,6 +2,27 @@
   display: none;
 }
 
+.ui.menu .item:before, .ui.inverted.menu .item:before, .ui.vertical.inverted.menu .item:before {
+  background: transparent;
+}
+
+.ui.inverted.menu {
+  background-color: #474B72;
+}
+
+a:hover {
+  color: rgba(68, 188, 176, 0.5);
+}
+
+a:hover .icon {
+  color: rgba(68, 188, 176, 0.5);
+}
+
+a {
+  color: #44BCB0;
+  text-decoration: none;
+}
+
 .masthead.segment {
   min-height: 700px;
   padding: 1em 0em;
@@ -16,15 +37,42 @@
   margin-top: 3em;
   margin-bottom: 0em;
   font-size: 4em;
-  font-weight: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
 }
 .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
+  text-align: center;
+  color: #fff;
 }
+
+.ui.text.container h3 {
+  color: #44BCB0;
+}
+
+h3.ui.text.container {
+  color: #44BCB0;
+}
+
+.ui.list .list>.item a.header, .ui.list>.item a.header {
+  color: #44BCB0 !important;
+}
+
+.ui.list .list > a.item, .ui.list > a.item {
+  color: #44BCB0;
+}
+
+.ui.list .list > a.item:hover,
+.ui.list > a.item:hover {
+  color: #44BCB0;
+}
+
 .landing-image {
-background-image: url('images/anasofiapinho-image-0002.jpeg') !important;
+  background-image: url('images/background-space.jpg') !important;
   background-size: cover !important;
+  background-color: #fff;
 }
 
 .ui.vertical.stripe {
@@ -57,10 +105,41 @@ background-image: url('images/anasofiapinho-image-0002.jpeg') !important;
 
 .footer.segment {
   padding: 5em 0em;
+  font-weight: lighter;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background-color: #474B72;
+  color: #fff;
 }
 
 .secondary.pointing.menu .toc.item {
   display: none;
+}
+
+.ui.list .header {
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+  padding-top: 0.8em;
+  line-height: 1em;
+}
+
+.ui.list .list>.item a.header:hover, .ui.list>.item a.header:hover {
+  color: rgba(68, 188, 176, 0.5) !important;
+}
+
+.ui.vertical.segment {
+  border-bottom:#fff;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 700px) {
+  .masthead h1.ui.header {
+    font-size: 3em;
+  }
+
+  .masthead h2 {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -78,7 +157,7 @@ background-image: url('images/anasofiapinho-image-0002.jpeg') !important;
     min-height: 350px;
   }
   .masthead h1.ui.header {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 1.5em;
   }
   .masthead h2 {
