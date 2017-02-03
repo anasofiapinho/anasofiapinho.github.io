@@ -75,14 +75,43 @@ h3.ui.text.container {
 }
 
 .landing-image {
-  background-image: url('images/background-space.jpg') !important;
+  /* background-image: url('images/background_Artboard 8 copy.png') !important; */
   background-size: cover !important;
   background-color: #fff;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3 )
+    ),
+    url('images/background_rainbow.png') !important;
+}
+
+.ui.fluid.image.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.ui.fluid.image.grayscale:hover {
+    -webkit-filter: initial; /* Safari 6.0 - 9.0 */
+    filter: initial;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  border-color: transparent !important;
+}
+
+.ui.secondary.pointing.menu {
+  border-bottom: transparent;
 }
 
 .ui.vertical.stripe {
   padding: 8em 0em;
 }
+
+.ui.vertical.stripe.stripe-small {
+  padding: 4em 0em;
+}
+
 .ui.vertical.stripe h3 {
   font-size: 2em;
 }
