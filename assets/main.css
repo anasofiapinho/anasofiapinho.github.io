@@ -1,3 +1,7 @@
+body.pushable {
+  background-color: #474B72 !important;
+}
+
 .hidden.menu {
   display: none;
 }
@@ -23,6 +27,15 @@ a {
   text-decoration: none;
 }
 
+.ui.text.container.work-header a {
+  font-size: 3em;
+  line-height: 0.8em;
+}
+
+.ui.text.container.work-header h1 {
+  font-size: 2em;
+}
+
 .masthead.segment {
   min-height: 700px;
   padding: 1em 0em;
@@ -46,6 +59,10 @@ a {
   font-weight: normal;
   text-align: center;
   color: #fff;
+}
+
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:last-child {
+  margin-bottom: 3em;
 }
 
 .ui.text.container h3 {
@@ -109,12 +126,32 @@ h3.ui.text.container {
 }
 
 .ui.vertical.stripe.stripe-small {
-  padding: 4em 0em;
+  padding: 2em 0em;
+}
+
+.ui.vertical.stripe.stripe-large {
+  padding-top: 8em;
+  padding-bottom: 18em;
+}
+
+.ui.vertical.stripe.background {
+  background-color: #E8FFFC;
+}
+
+.inter-section-text {
+  margin-top: -170px;
+  margin-bottom: 8em;
 }
 
 .ui.vertical.stripe h3 {
   font-size: 2em;
 }
+
+.ui.vertical.segment.stripe-top {
+  padding-top: 8em;
+  padding-bottom: 2em;
+}
+
 .ui.vertical.stripe .button + h3,
 .ui.vertical.stripe p + h3 {
   margin-top: 3em;
@@ -203,5 +240,10 @@ h3.ui.text.container {
   .masthead h2 {
     margin-top: 0.5em;
     font-size: 1.5em;
+  }
+
+  .ui.text.container.work-header a {
+  font-size: 2em;
+  line-height: 1em;
   }
 }
