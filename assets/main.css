@@ -146,6 +146,21 @@ h3.ui.text.container {
   margin-bottom: 4em;
 }
 
+.box-title {
+  color: #494657;
+  font-size: 1.7em !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.box-text {
+
+}
+
+.ui.segment.box {
+  padding-top: 2em;
+}
+
 .ui.vertical.stripe h3 {
   font-size: 2em;
 }
@@ -211,6 +226,12 @@ h3.ui.text.container {
   font-size: 1em;
   padding-top: 0.5em;
   text-align: left;
+}
+
+.ui.segment {
+  box-shadow: none;
+  border-radius: 0rem;
+  border: 0px transparent;
 }
 
 @media only screen and (max-width: 770px) and (min-width: 700px) {
