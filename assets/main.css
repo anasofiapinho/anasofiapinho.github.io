@@ -1,5 +1,5 @@
 body.pushable {
-  background-color: #474B72 !important;
+  background-color: #494657 !important;
 }
 
 .hidden.menu {
@@ -11,7 +11,7 @@ body.pushable {
 }
 
 .ui.inverted.menu {
-  background-color: #474B72;
+  background-color: #494657;
 }
 
 a:hover {
@@ -135,7 +135,7 @@ h3.ui.text.container {
 }
 
 .ui.vertical.stripe.background {
-  background-color: #E8FFFC;
+  background-color: #EDFFEC;
 }
 
 .inter-section-text {
@@ -183,8 +183,8 @@ h3.ui.text.container {
 }
 
 .ui.inverted.segment, .ui.primary.inverted.segment {
-  background-color: #474B72;
   color: #fff;
+  background-color: #494657;
 }
 
 .secondary.pointing.menu .toc.item, .ui.fixed.menu .toc.item {
