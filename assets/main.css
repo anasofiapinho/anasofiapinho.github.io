@@ -139,8 +139,11 @@ h3.ui.text.container {
 }
 
 .inter-section-text {
-  margin-top: -170px;
-  margin-bottom: 8em;
+  color: #44BCB0;
+  font-size: 1.7em !important;
+  font-weight: 700;
+  margin-top: -8.5em;
+  margin-bottom: 4em;
 }
 
 .ui.vertical.stripe h3 {
@@ -243,7 +246,19 @@ h3.ui.text.container {
   }
 
   .ui.text.container.work-header a {
-  font-size: 2em;
-  line-height: 1em;
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .inter-section-text {
+    color: #44BCB0;
+    font-size: 1.33em !important;
+    font-weight: 700;
+    margin-top: -15.5em;
+    margin-bottom: 0em;
+  }
+
+  .ui.segment.contains-inter-section-text {
+    margin-top: 5em;
   }
 }
