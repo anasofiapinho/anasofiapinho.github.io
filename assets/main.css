@@ -193,6 +193,10 @@ h3.ui.text.container {
   margin-left: -0.058em;
 }
 
+.green-text {
+  color: #44BCB0 !important;
+}
+
 .ui.vertical.stripe h3 {
   font-size: 2em;
 }
