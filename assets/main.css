@@ -182,6 +182,43 @@ h3.ui.text.container {
   font-weight: 700;
 }
 
+.section-text-title {
+  color: #fff;
+  font-size: 3em !important;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0em;
+}
+
+.section-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.7em !important;
+  font-weight: 700;
+}
+
+.section-text h2 {
+  margin-bottom: -1em;
+  margin-top: 2em;
+}
+
+h2.body-text {
+  color: #494657;
+  font-size: 1.7em !important;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.ui.vertical.stripe.background-green {
+  background-color: #44BCB0;
+  background-image:
+    linear-gradient(
+      rgba(68, 188, 176, 0.7),
+      rgba(68, 188, 176, 0.7)
+    ),
+    url(../assets/images/work/rgsoc/2016-09-30-rgsoc-2016-party-soundcloud-endofsummer-04-background.png);
+}
+
 .info-title {
   color: #44BCB0;
   font-size: 8em !important;
