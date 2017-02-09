@@ -47,13 +47,18 @@ a {
   margin-left: 0.5em;
 }
 .masthead h1.ui.header {
-  margin-top: 3em;
+  margin-top: 0.5em;
   margin-bottom: 0em;
   font-size: 4em;
   font-weight: 700;
   text-align: center;
   color: #fff;
 }
+
+.ui.text.container.stripe-header {
+  padding-top: 11em;
+}
+
 .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
@@ -94,13 +99,13 @@ h3.ui.text.container {
 .landing-image {
   /* background-image: url('images/background_Artboard 8 copy.png') !important; */
   background-size: cover !important;
-  background-color: #fff;
+  background-color: #494657;
   background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3 )
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4 )
     ),
-    url('images/background_rainbow.png') !important;
+    url('images/background-rainbow.png') !important;
 }
 
 .ui.fluid.image.grayscale {
@@ -131,7 +136,11 @@ h3.ui.text.container {
 
 .ui.vertical.stripe.stripe-large {
   padding-top: 8em;
-  padding-bottom: 18em;
+  padding-bottom: 8x§em;
+}
+
+.ui.vertical.stripe.stripe-header {
+  padding: 10em 0em;
 }
 
 .ui.vertical.stripe.background {
@@ -154,11 +163,34 @@ h3.ui.text.container {
 }
 
 .box-text {
-
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .ui.segment.box {
   padding-top: 2em;
+  height: 30em;
+}
+
+.simple.list p {
+  padding-left: 50em;
+}
+
+.portfolio-title {
+  color: #44BCB0;
+  font-size: 3em !important;
+  font-weight: 700;
+}
+
+.info-title {
+  color: #44BCB0;
+  font-size: 8em !important;
+  font-weight: 700;
+  margin-top: -1em;
+}
+
+#diversity .info-title {
+  margin-left: -0.058em;
 }
 
 .ui.vertical.stripe h3 {
@@ -174,12 +206,20 @@ h3.ui.text.container {
 .ui.vertical.stripe p + h3 {
   margin-top: 3em;
 }
+
+.ui.right.floated.image, .ui.right.floated.images {
+  margin-left: 4em;
+  margin-bottom: 2em;
+}
+
 .ui.vertical.stripe .floated.image {
   clear: both;
 }
+
 .ui.vertical.stripe p {
   font-size: 1.33em;
 }
+
 .ui.vertical.stripe .horizontal.divider {
   margin: 3em 0em;
 }
@@ -187,6 +227,7 @@ h3.ui.text.container {
 .quote.stripe.segment {
   padding: 0em;
 }
+
 .quote.stripe.segment .grid .column {
   padding-top: 5em;
   padding-bottom: 5em;
@@ -234,6 +275,22 @@ h3.ui.text.container {
   border: 0px transparent;
 }
 
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+  .ui.segment.box {
+    padding-top: 2em;
+    height: 35em;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+  .ui.segment.box {
+    padding-top: 2em;
+    height: 47em;
+  }
+}
+
 @media only screen and (max-width: 770px) and (min-width: 700px) {
   .masthead h1.ui.header {
     font-size: 3em;
@@ -243,6 +300,56 @@ h3.ui.text.container {
     font-size: 1.5em;
   }
 }
+
+@media only screen and (max-width: 767px) and (min-width: 700px) {
+  .masthead h1.ui.header {
+    font-size: 3em;
+  }
+
+  .masthead h2 {
+    font-size: 1.5em;
+  }
+
+  .ui.segment.box {
+    padding-top: 2em;
+    height: auto;
+  }
+}
+
+/* Stripe and intersection text responsive webdesign
+
+@media only screen and (max-width: 731px) and (min-width: 701px) {
+
+  .ui.vertical.stripe.stripe-large {
+    padding-top: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 572px) {
+
+  .ui.vertical.stripe.stripe-large {
+    padding-top: 15.5em;
+  }
+}
+
+@media only screen and (max-width: 571px) and (min-width: 474px) {
+
+  .ui.vertical.stripe.stripe-large {
+    padding-top: 13em;
+  }
+}
+
+@media only screen and (max-width: 475px) and (min-width: 379px) {
+  .ui.vertical.stripe.stripe-large {
+    padding-top: 10.5em;
+  }
+
+@media only screen and (max-width: 379px) and (min-width: 443px) {
+  .ui.vertical.stripe.stripe-large {
+    padding-top: 10.5em;
+  }
+}
+*/
 
 @media only screen and (max-width: 700px) {
   .secondary.pointing.menu .item, .ui.fixed.menu .item {
@@ -259,11 +366,15 @@ h3.ui.text.container {
   }
   .masthead h1.ui.header {
     font-size: 2.5em;
-    margin-top: 1.5em;
+    margin-top: 0.5em!;
   }
   .masthead h2 {
     margin-top: 0.5em;
     font-size: 1.5em;
+  }
+
+  .ui.text.container.stripe-header {
+    padding-top: 5em;
   }
 
   .ui.text.container.work-header a {
@@ -281,5 +392,18 @@ h3.ui.text.container {
 
   .ui.segment.contains-inter-section-text {
     margin-top: 5em;
+  }
+
+  .ui.segment.box {
+    padding-top: 2em;
+    padding-bottom: 0.2em;
+    height: auto;
+  }
+
+  .info-title {
+    color: #44BCB0;
+    font-size: 4em !important;
+    font-weight: 700;
+    margin-top: -1em;
   }
 }
