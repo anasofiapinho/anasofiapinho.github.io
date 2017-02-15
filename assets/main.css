@@ -1,5 +1,5 @@
 body.pushable {
-  background-color: #494657 !important;
+  background-color: #fff !important;
 }
 
 .hidden.menu {
@@ -99,7 +99,7 @@ h3.ui.text.container {
 .landing-image {
   /* background-image: url('images/background_Artboard 8 copy.png') !important; */
   background-size: cover !important;
-  background-color: #494657;
+  background-color: #fff;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.4),
