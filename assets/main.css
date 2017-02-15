@@ -144,7 +144,7 @@ h3.ui.text.container {
 }
 
 .ui.vertical.stripe.background {
-  background-color: #EDFFEC;
+  background-color: #DCE0F2;
 }
 
 .inter-section-text {
@@ -178,8 +178,32 @@ h3.ui.text.container {
 
 .portfolio-title {
   color: #44BCB0;
-  font-size: 3em !important;
+  font-size: 6em !important;
   font-weight: 700;
+  margin-top: -0.15em !important;
+  margin-bottom: 0.5em;
+}
+
+.portfolio-sub-title {
+  color: #44BCB0;
+  font-size: 2.5em !important;
+  font-weight: 700;
+  margin-top: -0.15em !important;
+}
+
+i.icon.hand.rock {
+  vertical-align: center;
+  color: #44BCB0;
+}
+
+i.icon.hand.paper {
+  vertical-align: center;
+  color: #44BCB0;
+}
+
+i.icon.hand.spock {
+  vertical-align: center;
+  color: #44BCB0;
 }
 
 .section-text-title {
@@ -238,13 +262,64 @@ h2.body-text {
   font-size: 2em;
 }
 
+.ui.vertical.segment.stripe-section {
+  background-color: #DCE0F2;
+  padding-bottom: 4em;
+}
+
 .ui.vertical.segment.stripe-top {
   padding-top: 8em;
   padding-bottom: 2em;
 }
 
-.ui.vertical.stripe.segment.stripe-overview {
-  background-color: #9297C4;
+.ui.vertical.segment.stripe-middle {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  }
+
+.ui.vertical.segment.stripe-bottom {
+  padding-top: 2em;
+  padding-bottom: 8em;
+  }
+
+.row-images {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  }
+
+.ui.vertical.stripe.segment.stripe-stats {
+  background-color: #DCE0F2;
+  padding-bottom: 0em;
+}
+
+.ui.section.inverted.divider.divider-section {
+  border-top: 2px solid rgba(255,255,255,0);
+  border-bottom: 0px;
+  padding-bottom: 4em;
+}
+
+.shortcuts h2 {
+  text-align: center;
+  color: #494657;
+  font-size: 1.7em !important;
+  font-weight: 700;
+  margin-bottom: 4em;
+}
+
+.potfolio-left-column {
+  padding-right: 2em;
+  }
+
+.portfolio-title-shortcuts {
+  color: #44BCB0;
+  font-size: 3em !important;
+  font-weight: 700;
+}
+
+.section-subtitle-text {
+  color: #fff;
+  font-size: 2.5em !important;
+  font-weight: 700;
 }
 
 .ui.vertical.stripe .button + h3,
@@ -309,9 +384,10 @@ h2.body-text {
 
 .ui.grid p.legend {
   color: grey;
+  text-align: left;
   font-size: 1em;
   padding-top: 0.5em;
-  text-align: left;
+  margin-bottom: -1.5em;
 }
 
 .ui.segment {
@@ -450,5 +526,63 @@ h2.body-text {
     font-size: 4em !important;
     font-weight: 700;
     margin-top: -1em;
+  }
+
+  .portfolio-title {
+    color: #44BCB0;
+    font-size: 3em !important;
+    font-weight: 700;
+    margin-top: -0.15em !important;
+    margin-bottom: 0.5em;
+  }
+
+  .portfolio-sub-title {
+    color: #44BCB0;
+    font-size: 2em !important;
+    font-weight: 700;
+    margin-top: -0.15em !important;
+  }
+
+  .section-text-title {
+  color: #fff;
+  font-size: 2.5em !important;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0em;
+  }
+
+  .section-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em !important;
+  font-weight: 700;
+  }
+
+  .section-text h2 {
+  margin-bottom: -1em;
+  margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .section-text-title {
+  color: #fff;
+  font-size: 2em !important;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0em;
+  }
+
+  .section-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em !important;
+  font-weight: 700;
+  }
+
+  .section-text h2 {
+  margin-bottom: -1em;
+  margin-top: 2em;
   }
 }
