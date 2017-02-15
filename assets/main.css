@@ -191,6 +191,14 @@ h3.ui.text.container {
   margin-top: -0.15em !important;
 }
 
+.warning-text {
+  color: #44BCB0;
+  text-align: center;
+  font-size: 1.5em !important;
+  font-weight: 700;
+  margin-top: -0.15em !important;
+}
+
 i.icon.hand.rock {
   vertical-align: center;
   color: #44BCB0;
@@ -202,6 +210,11 @@ i.icon.hand.paper {
 }
 
 i.icon.hand.spock {
+  vertical-align: center;
+  color: #44BCB0;
+}
+
+i.icon.warning.sign {
   vertical-align: center;
   color: #44BCB0;
 }
