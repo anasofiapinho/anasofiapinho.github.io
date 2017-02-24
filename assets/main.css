@@ -10,8 +10,83 @@ body.pushable {
   background: transparent;
 }
 
-.ui.inverted.menu {
-  background-color: #494657;
+.ui.inverted.menu.fixed {
+  background-color: rgba(73,70,87,0.8);
+}
+
+.ui.inverted.menu.fixed .item:hover {
+  background-color: rgba(73,70,87,1);
+}
+
+.ui.secondary.inverted.menu a.item {
+  color: #fff !important;
+}
+
+.ui.secondary.inverted.menu a.item:hover {
+  color: rgba(68, 188, 176,1) !important;
+}
+
+.secondary.pointing.menu .toc.item, .ui.fixed.menu .toc.item {
+  display: none;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  border-color: transparent !important;
+  border-bottom: transparent;
+  color: #fff !important;
+}
+
+.ui.secondary.inverted.pointing.menu:hover {
+  border-color: transparent !important;
+  color: rgba(68, 188, 176, 1) !important;
+}
+
+.ui.secondary.inverted.pointing.menu .active.item {
+  border-color: transparent !important;
+  color: #44BCB0 !important;
+}
+
+.ui.secondary.pointing.menu {
+  border-bottom: transparent;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui) {
+  color: #fff !important;
+}
+.ui.list .header {
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+  padding-top: 0.8em;
+  line-height: 1em;
+}
+
+.ui.list .list>.item a.header:hover, .ui.list>.item a.header:hover {
+  color: rgba(68, 188, 176, 0.5) !important;
+}
+
+.ui.vertical.icon.menu.portfolio-menu {
+  color: rgba(220,224,242, 1) !important;
+  background-color: rgba(220,224,242, 0.3);
+  box-shadow: none;
+  border: transparent;
+  border-radius: 0px;
+  position: fixed;
+  right: 0;
+  left: initial;
+  top: 70%;
+  margin-top: -5em;
+}
+
+.ui.vertical.icon.menu.portfolio-menu a.item {
+  color: rgba(73,70,87, 0.7) !important;
+}
+
+.ui.vertical.icon.menu.portfolio-menu a.item:hover {
+  color: rgba(68, 188, 176, 1) !important;
+}
+
+.ui.vertical.icon.menu a.item {
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 a:hover {
@@ -20,6 +95,10 @@ a:hover {
 
 a:hover .icon {
   color: rgba(68, 188, 176, 0.5);
+}
+
+a:hover .icon.image {
+  color: rgba(68, 188, 176, 1);
 }
 
 a {
@@ -116,14 +195,6 @@ h3.ui.text.container {
 .ui.fluid.image.grayscale:hover {
     -webkit-filter: initial; /* Safari 6.0 - 9.0 */
     filter: initial;
-}
-
-.ui.secondary.inverted.pointing.menu {
-  border-color: transparent !important;
-}
-
-.ui.secondary.pointing.menu {
-  border-bottom: transparent;
 }
 
 .ui.vertical.stripe {
@@ -376,19 +447,15 @@ h2.body-text {
   background-color: #494657;
 }
 
-.secondary.pointing.menu .toc.item, .ui.fixed.menu .toc.item {
-  display: none;
+.ui.vertical.segment.footer p {
+  text-align: center;
+  margin-bottom: 0em;
 }
 
-.ui.list .header {
-  font-size: 1.8em;
-  padding-bottom: 0.5em;
-  padding-top: 0.8em;
-  line-height: 1em;
-}
-
-.ui.list .list>.item a.header:hover, .ui.list>.item a.header:hover {
-  color: rgba(68, 188, 176, 0.5) !important;
+.ui.vertical.segment.footer a {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 2em;
 }
 
 .ui.vertical.segment {
@@ -484,6 +551,14 @@ h2.body-text {
   }
 }
 */
+
+@media only screen and (max-width: 1024px) {
+  .ui.vertical.icon.menu.portfolio-menu a.item {
+  color: rgba(73,70,87, 0.7) !important;
+  font-size: 0.7em;
+  min-width: 0em;
+  }
+}
 
 @media only screen and (max-width: 700px) {
   .secondary.pointing.menu .item, .ui.fixed.menu .item {
