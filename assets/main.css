@@ -102,10 +102,10 @@ h3.ui.text.container {
   background-color: #fff;
   background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4 )
+      rgba(73,70,87, 0.7),
+      rgba(73,70,87, 0.7 )
     ),
-    url('images/background-rainbow.png') !important;
+    url('images/anasofiapinho-background.jpg') !important;
 }
 
 .ui.fluid.image.grayscale {
@@ -598,4 +598,16 @@ h2.body-text {
   margin-bottom: -1em;
   margin-top: 2em;
   }
+  .landing-image {
+  /* background-image: url('images/background_Artboard 8 copy.png') !important; */
+  background-size: cover !important;
+  background-color: #fff;
+  background-image:
+    linear-gradient(
+      rgba(73,70,87, 0.7),
+      rgba(73,70,87, 0.7 )
+    ),
+    url('images/anasofiapinho-background-mobile.jpg') !important;
+  }
+
 }
