@@ -476,6 +476,15 @@ h2.body-text {
   border: 0px transparent;
 }
 
+@media only screen and (max-width: 1199px) and (min-width: 700px) {
+
+  .ui.floated.left.image.outside-of-text {
+  margin: 0.5em 2em 0.5em 0em;
+  width: 400px;
+  }
+
+}
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
 
   .ui.segment.box {
@@ -650,6 +659,13 @@ h2.body-text {
   margin-bottom: -1em;
   margin-top: 2em;
   }
+  .ui.floated.left.image.outside-of-text {
+  margin: 0.5em 0em 1.5em 0em;
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -673,6 +689,13 @@ h2.body-text {
   margin-bottom: -1em;
   margin-top: 2em;
   }
+
+  .ui.vertical.segment.footer a {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    font-size: 1em;
+  }
+
   .landing-image {
   /* background-image: url('images/background_Artboard 8 copy.png') !important; */
   background-size: cover !important;
