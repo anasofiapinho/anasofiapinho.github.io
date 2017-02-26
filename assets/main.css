@@ -588,6 +588,16 @@ h2.body-text {
   .secondary.pointing.menu .toc.item {
     display: block;
   }
+  .ui.vertical.menu .item {
+    color: #fff;
+    background-color: #494657;
+  }
+
+  .ui.dropdown.item {
+    color: #fff;
+    background-color: #494657;
+  }
+
   .masthead.segment {
     min-height: 350px;
   }
