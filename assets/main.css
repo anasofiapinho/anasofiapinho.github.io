@@ -74,11 +74,12 @@ body.pushable {
   right: 0;
   left: initial;
   top: 70%;
-  margin-top: -5em;
+  margin-top: -7em;
 }
 
 .ui.vertical.icon.menu.portfolio-menu a.item {
   color: rgba(73,70,87, 0.7) !important;
+  min-width: 0em;
 }
 
 .ui.vertical.icon.menu.portfolio-menu a.item:hover {
