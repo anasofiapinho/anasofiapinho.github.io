@@ -420,6 +420,15 @@ h2.body-text {
   clear: both;
 }
 
+.ui.floated.left.image.outside-of-text {
+  margin: 0.5em 2em 0.5em -10em;
+  width: 427px;
+}
+
+.ui.floated.right.image.outside-of-text {
+  margin: 0.5em -10em 0.5em 2em;
+}
+
 .ui.vertical.stripe p {
   font-size: 1.33em;
 }
