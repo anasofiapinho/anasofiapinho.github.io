@@ -353,12 +353,12 @@ h2.body-text {
 
 .ui.vertical.segment.stripe-top {
   padding-top: 8em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .ui.vertical.segment.stripe-middle {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   }
 
 .ui.vertical.segment.stripe-bottom {
@@ -366,7 +366,7 @@ h2.body-text {
   padding-bottom: 8em;
   }
 
-.row-images {
+.div.row-images {
   padding-top: 2em;
   padding-bottom: 2em;
   }
