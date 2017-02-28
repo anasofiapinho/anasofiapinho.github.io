@@ -481,7 +481,8 @@ p.stats-kpi-subtitle {
   color: #44BCB0;
   font-size: 4em !important;
   font-weight: 700;
-  margin-bottom: -0.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
   text-align: center;
 }
 
@@ -490,7 +491,7 @@ p.stats-kpi-subtitle-2 {
   font-size: 2em !important;
   font-weight: 700;
   margin-top: 0em;
-  margin-bottom: 0em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -617,11 +618,51 @@ p.stats-kpi-subtitle-2 {
   border: 0px transparent;
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  p.stats-kpi-title {
+  color: #44BCB0;
+  font-size: 10em !important;
+  font-weight: 700;
+  margin-bottom: -0.1em;
+  margin-top: 0em;
+  line-height: 1.2em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle {
+  color: #44BCB0;
+  font-size: 2em !important;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle-2 {
+  color: #44BCB0  ;
+  font-size: 1em !important;
+  font-weight: 700;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  text-align: center;
+  }
+}
+
+
+
 @media only screen and (max-width: 1199px) and (min-width: 700px) {
 
   .ui.floated.left.image.outside-of-text {
   margin: 0.5em 2em 0.5em 0em;
   width: 400px;
+  }
+
+  p.stats-title {
+    font-size: 8em !important;
+  }
+
+  p.stats-subtitle {
+    font-size: 1.5em !important;
   }
 
 }
@@ -664,6 +705,54 @@ p.stats-kpi-subtitle-2 {
   .ui.segment.box {
     padding-top: 2em;
     height: auto;
+  }
+
+  p.portfolio-sub-title {
+    margin-bottom: 0em;
+  }
+
+  p.stats-title-section {
+    margin: auto;
+  }
+
+  p.stats-title {
+    text-align: center;
+  }
+
+  p.stats-subtitle {
+    text-align: center;
+  }
+
+  p.stats-kpi-title {
+    font-size: 10em !important;
+  }
+
+  p.stats-kpi-title {
+  color: #44BCB0;
+  font-size: 10em !important;
+  font-weight: 700;
+  margin-bottom: -0.1em;
+  margin-top: 0em;
+  line-height: 1.2em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle {
+  color: #44BCB0;
+  font-size: 2em !important;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle-2 {
+  color: #44BCB0  ;
+  font-size: 1em !important;
+  font-weight: 700;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  text-align: center;
   }
 }
 
@@ -709,6 +798,7 @@ p.stats-kpi-subtitle-2 {
   min-width: 0em;
   }
 }
+
 
 @media only screen and (max-width: 700px) {
   .secondary.pointing.menu .item, .ui.fixed.menu .item {
@@ -824,6 +914,51 @@ p.stats-kpi-subtitle-2 {
   height: auto;
   }
 
+  p.portfolio-sub-title {
+    margin-bottom: 0em;
+  }
+
+  p.stats-title-section {
+    margin: auto;
+  }
+
+  p.stats-title {
+    text-align: center;
+  }
+
+  p.stats-subtitle {
+    text-align: center;
+  }
+
+  p.stats-kpi-title {
+  color: #44BCB0;
+  font-size: 10em !important;
+  font-weight: 700;
+  margin-bottom: -0.1em;
+  margin-top: 0em;
+  line-height: 1.2em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle {
+  color: #44BCB0;
+  font-size: 2em !important;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle-2 {
+  color: #44BCB0  ;
+  font-size: 1em !important;
+  font-weight: 700;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  text-align: center;
+  }
+
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -864,6 +999,34 @@ p.stats-kpi-subtitle-2 {
       rgba(73,70,87, 0.7 )
     ),
     url('images/anasofiapinho-background-mobile.jpg') !important;
+  }
+
+  p.stats-kpi-title {
+  color: #44BCB0;
+  font-size: 8em !important;
+  font-weight: 700;
+  margin-bottom: -0.1em;
+  margin-top: 0em;
+  line-height: 1.2em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle {
+  color: #44BCB0;
+  font-size: 1.5em !important;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  text-align: center;
+  }
+
+p.stats-kpi-subtitle-2 {
+  color: #44BCB0  ;
+  font-size: 0.75em !important;
+  font-weight: 700;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  text-align: center;
   }
 
 }
