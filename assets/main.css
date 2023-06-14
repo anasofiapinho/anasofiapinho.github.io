@@ -194,8 +194,8 @@ h3.ui.text.container {
   background-color: #fff;
   background-image:
     linear-gradient(
-      rgba(73,70,87, 0.7),
-      rgba(73,70,87, 0.7 )
+      rgba(73,70,87,0),
+      rgba(73,70,87,0)
     ),
     url('images/anasofiapinho-background.jpg') !important;
 }
